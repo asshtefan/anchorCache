@@ -15,7 +15,8 @@ anchorCache® is a high-performance, distributed object caching system, generic 
 anchorCache® dropped the database load to almost nothing, yielding faster page load times for users, better resource utilization. It is simple yet powerful.
 
 
-How to Install it?
+# How to Install it?
+
 1. Click Download & Unzip
 
 2. Install folder anchorCache/ your server
