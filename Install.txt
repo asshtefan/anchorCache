@@ -1,0 +1,8 @@
+How to Install it?
+1. Click Download & Unzip
+
+2. Install folder anchorCache/ your server
+
+3. Add the code [ include("anchorCache/anchorCache.php"); ] On all pages!
+
+4. Done!
