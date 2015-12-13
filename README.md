@@ -1,3 +1,13 @@
+# anchorCache® Caching Class
+
+[ The anchorCache® hehigh-performance object caching system ever. ]
+
+anchorCache® is a high-performance, distributed object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+
+anchorCache® dropped the database load to almost nothing, yielding faster page load times for users, better resource utilization. It is simple yet powerful.
+
+https://ioli.be/project/
+
 # Document & API
 A Simple anchorCache® PHP Caching Class
 
@@ -7,12 +17,6 @@ API Functions are available below.
 
 Requirements for using anchorCache®?
 All you need are PHP 5.1+
-
-[ The anchorCache® hehigh-performance object caching system ever. ]
-
-anchorCache® is a high-performance, distributed object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
-
-anchorCache® dropped the database load to almost nothing, yielding faster page load times for users, better resource utilization. It is simple yet powerful.
 
 
 # How to Install it?
