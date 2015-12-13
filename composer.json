@@ -1,0 +1,22 @@
+{
+    "name": "anchorCache/",
+    "type" : "library",
+    "description": "Anchor Cache, PHP cache is free, open source that speed up your website. Support Files, APC, XCache",
+    "keywords": ["cache","caching","php cache","mysql cache","apc cache","apc","memcache","memcached","wincache","files cache","pdo cache","cache class","redis","predis","cookie"],
+    "homepage": "https://ioli.be",
+    "license": "MIT",
+    "authors": [
+            {
+                "name": "iOli® Cloud",
+                "email": "noc@ioli.be",
+                "homepage": "https://ioli.be",
+                "role": "Developer"
+            }
+        ],
+    "require": {
+        "php": ">=5.1.0"
+    },
+    "autoload": {
+        "files": ["anchorCache.php"]
+    }
+}
