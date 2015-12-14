@@ -1,7 +1,7 @@
 <!-- start > iOli® Cloud / Moscow, Russia https://ioli.be <! Close -->
 
 <?php
-
+$cachedir="anchorCache";
   /* Assign your dynamically generated page to $page */
   $page = "anchorCache.php";
   
@@ -26,7 +26,7 @@
   $page = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
   
   /* Cache file to either load or create */
-  $cachefile = $cachedir . md5($page) . '.' . $cacheext;
+  $cachefile = $cachedir.'/cache/'.  md5($page) . '.' . $cacheext;
   $cachefile_created = ((@file_exists($cachefile)) and ($ignore_page === false)) ? @filemtime($cachefile) : 0;
   @clearstatcache();
  
