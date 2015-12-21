@@ -41,13 +41,4 @@ $cachedir="anchorCache";
   ob_start();
 ?>
 
-<?php
-   
- /* Save the cached content to a file */   
- $fp = fopen($cachefile, 'w');    
- fwrite($fp, ob_get_contents());    
- fclose($fp);
- 
- /* Send browser output */   
- ob_end_flush();
-?>
+JTNDJTNGcGhwJTBBJTIwJTIwJTIwJTBBJTIwLyolMjBTYXZlJTIwdGhlJTIwY2FjaGVkJTIwY29udGVudCUyMHRvJTIwYSUyMGZpbGUlMjAqLyUyMCUyMCUyMCUwQSUyMCUyNGZwJTIwJTNEJTIwZm9wZW4lMjglMjRjYWNoZWZpbGUlMkMlMjAlMjd3JTI3JTI5JTNCJTIwJTIwJTIwJTIwJTBBJTIwZndyaXRlJTI4JTI0ZnAlMkMlMjBvYl9nZXRfY29udGVudHMlMjglMjklMjklM0IlMjAlMjAlMjAlMjAlMEElMjBmY2xvc2UlMjglMjRmcCUyOSUzQiUwQSUyMCUwQSUyMC8qJTIwU2VuZCUyMGJyb3dzZXIlMjBvdXRwdXQlMjAqLyUyMCUyMCUyMCUwQSUyMG9iX2VuZF9mbHVzaCUyOCUyOSUzQiUwQSUzRiUzRQ==
