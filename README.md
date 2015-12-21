@@ -6,7 +6,7 @@ anchorCache® is a high-performance, distributed object caching system, generic 
 
 anchorCache® dropped the database load to almost nothing, yielding faster page load times for users, better resource utilization. It is simple yet powerful.
 
-https://ioli.be/project/
+http://anchorcache.eu/
 
 # Document & API
 A Simple anchorCache® PHP Caching Class
